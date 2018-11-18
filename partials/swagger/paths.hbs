@@ -6,5 +6,5 @@
 <h2>Paths</h2>
 
 {{#eachSorted paths}}
-    {{>swagger/path pathItems=. path=@key}}
+    {{>swagger/path pathItems=. path=@key definitions=definitions}}
 {{/eachSorted}}
