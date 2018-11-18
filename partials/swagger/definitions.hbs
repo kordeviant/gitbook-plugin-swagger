@@ -8,9 +8,22 @@
     <h2>Schema definitions</h2>
 
     {{#eachSorted definitions}}
-        {{>swagger/model model=. title=@key anchor="/definitions" }}
-        {{#each this}}
-            {{@key}} - {{this}}
+    <table class="table">
+            <thead>
+            <tr>
+                <th class="sw-param-property">Property</th>
+                <th class="sw-param-Type">Type</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each properties}}
+            <tr>
+                <td>{{@key}}</td>
+                <td>{{this}}</td>
+            </tr>
         {{/each}}
+            </tbody>
+        </table>
+        
     {{/eachSorted}}
 {{/if}}    
