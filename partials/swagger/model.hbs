@@ -8,4 +8,6 @@
 {{! "title" is usually past as parameter, call the json-schema partials if necessary}}
 {{#if model}}
     {{>json-schema/main-panel model title=title anchor=anchor}}
+    <a href="#definition-{{@key}}">{{@key}}</a>
+    havij
 {{/if}}
