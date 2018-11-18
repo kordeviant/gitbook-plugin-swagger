@@ -20,9 +20,9 @@ Renders the definition-section of the HTML-page.
         {{#each properties}}
         <tr>
             <td>{{@key}}</td>
-            <td>{{#each this }}
-                {{@key}}
-            {{/each}}</td>
+            <td>
+                {{this.type}} 
+            </td>
         </tr>
         {{/each}}
     </tbody>
