@@ -8,3 +8,6 @@
 {{#eachSorted paths}}
     {{>swagger/path pathItems=. path=@key definitions=definitions}}
 {{/eachSorted}}
+{{#each definitions}}
+            {{@key}}-{{this}}
+            {{/each}}
