@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-md-6 sw-request-model">
                         {{!-- {{>swagger/model model=schema}} --}}
-                        {{schema}}
+                        {{res.json(schema)}}
                         <a href="#definition-{{@key}}">{{@key}}</a>
                     </div>
                 </div>
