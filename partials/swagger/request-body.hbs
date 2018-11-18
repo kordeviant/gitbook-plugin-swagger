@@ -23,7 +23,7 @@ Renders the request-body section of an operation.
         <div class="col-md-6 sw-request-model">
             {{!-- {{>swagger/model model=schema}} --}}
             <a href="#definition-{{@key}}">{{@key}}</a>
-            {{#each schema}}
+            {{#each this}}
             {{@key}} - {{this}}
             {{/each}}
         </div>
