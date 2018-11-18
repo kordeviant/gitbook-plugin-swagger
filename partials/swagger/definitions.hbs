@@ -9,5 +9,8 @@
 
     {{#eachSorted definitions}}
         {{>swagger/model model=. title=@key anchor="/definitions" }}
+        {{#each this}}
+            {{@key}} - {{this}}
+        {{/each}}
     {{/eachSorted}}
 {{/if}}    
