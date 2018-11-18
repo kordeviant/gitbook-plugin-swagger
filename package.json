@@ -1,22 +1,19 @@
 {
-  "name": "gitbook-plugin-swagger",
+  "name": "gitbook-plugin-swagger-storm",
   "version": "0.2.0",
-  "description": "A plugin to consume Swagger files into a Gitbook",
+  "description": "A plugin to consume Swagger files into a Gitbook for storm-online",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gnomeontherun/gitbook-plugin-swagger.git"
+    "url": "git+https://github.com/kordeviant/gitbook-plugin-swagger.git"
   },
   "keywords": [
     "gitbook",
     "plugin"
   ],
-  "author": "Jeremy Wilken <gnomation@gnomeontherun.com>",
+  "author": "Puria Kordrostami<kordeviant@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gnomeontherun/gitbook-plugin-swagger/issues"
-  },
-  "homepage": "https://github.com/gnomeontherun/gitbook-plugin-swagger#readme",
+  "homepage": "https://github.com/kordeviant/gitbook-plugin-swagger#readme",
   "engines": {
     "gitbook": ">=3"
   },
