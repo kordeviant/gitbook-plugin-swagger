@@ -10,6 +10,6 @@
     {{>swagger/operation . operation=. method=@key path=../path definition=definitions}}
     
 {{/eachSorted}}
-{{#each definitions}}
+{{#each ../../definitions}}
             {{@key}}-{{this}}
             {{/each}}
