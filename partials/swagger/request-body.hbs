@@ -20,7 +20,11 @@
                     <div class="col-md-6">
                         <p>{{md description}}</p>
                     </div>
-                    <div class="col-md-6 sw-request-model">{{>swagger/model model=schema}}</div>
+                    <div class="col-md-6 sw-request-model">
+                        {{!-- {{>swagger/model model=schema}} --}}
+                        {{$schema}}
+                        <a href="#definition-{{@key}}">{{@key}}</a>
+                    </div>
                 </div>
             {{/with}}
         {{/if}}
