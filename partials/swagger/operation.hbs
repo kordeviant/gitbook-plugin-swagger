@@ -26,9 +26,6 @@
         {{/if}}
         {{>swagger/parameters parameters=parameters}}
         {{>swagger/responses}}
-        {{#each definition}}
-        {{@key}} - {{this}}
-        {{/each}}
         {{!-- {{>swagger/security}} --}}
     </div>
 </div>
